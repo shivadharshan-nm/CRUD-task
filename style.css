@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .balance {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .transaction-form {
+    margin-bottom: 20px;
+  }
+  
+  .transaction-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .transaction-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .transaction-form button:hover {
+    background-color: #218838;
+  }
+  
+  .filter {
+    margin-bottom: 20px;
+  }
+  
+  .filter label {
+    margin-right: 10px;
+  }
+  
+  .transaction-list ul {
+    list-style-type: none;
+  }
+  
+  .transaction-list li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .transaction-list li .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .transaction-list li button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .transaction-list li button.edit-btn {
+    background-color: #007bff;
+  }
+  
+  .transaction-list li button:hover {
+    opacity: 0.8;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
